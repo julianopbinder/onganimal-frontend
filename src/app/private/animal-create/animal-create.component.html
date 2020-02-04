@@ -1,0 +1,36 @@
+<h1 mat-dialog-title *ngIf="!animal.id">Cadastrar Animal</h1>
+<h1 mat-dialog-title *ngIf="animal.id">Alterar Animal</h1>
+<div mat-dialog-content class="container">
+  <p *ngIf="!animal.id">Cadastrar um novo animal.</p>
+  <p *ngIf="animal.id">Alterar os dados do animal.</p>
+  <app-image-upload [imagem]="animal.image" (onFileSelected)="onFileSelected($event)"></app-image-upload>
+  <mat-form-field>
+    <input matInput placeholder="Nome" [(ngModel)]="animal.name">
+  </mat-form-field>
+  <mat-form-field>
+    <input matInput placeholder="Idade" [(ngModel)]="animal.age">
+  </mat-form-field>
+  <mat-form-field>
+    <input matInput placeholder="Informações Extra" [(ngModel)]="animal.extraInfo">
+  </mat-form-field>
+  <mat-form-field>
+    <input matInput placeholder="Cidade" [(ngModel)]="animal.city">
+  </mat-form-field>
+  <mat-form-field>
+    <input matInput placeholder="Estado" [(ngModel)]="animal.state">
+  </mat-form-field>
+
+    <mat-form-field>
+    <mat-label>Status</mat-label>
+    <select matNativeControl required [(ngModel)]="animal.status">
+        <option value="LOST">Perdido</option>
+        <option value="REPORTED">Comunicado</option>
+        <option value="FINDED">Encontrado</option>
+    </select>
+    </mat-form-field>
+
+</div>
+<div mat-dialog-actions>
+  <button mat-button  (click)="onNoClick()">Cancelar</button>
+  <button mat-button color="primary" (click)="create()">Salvar</button>
+</div>

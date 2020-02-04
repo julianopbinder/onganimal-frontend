@@ -1,0 +1,20 @@
+<h1 mat-dialog-title>Registrar</h1>
+<div mat-dialog-content>
+  <p>Para se registrar, por favor preencha os dados abaixo.</p>
+  <mat-form-field>
+    <input matInput placeholder="Nome" [(ngModel)]="owner.name">
+  </mat-form-field>
+  <mat-form-field>
+    <input matInput placeholder="E-mail" [(ngModel)]="owner.email">
+  </mat-form-field>
+  <mat-form-field>
+    <input matInput placeholder="Telefone" [(ngModel)]="owner.phone">
+  </mat-form-field>
+  <mat-form-field>
+    <input matInput placeholder="Senha" type="password" [(ngModel)]="owner.password">
+  </mat-form-field>
+</div>
+<div mat-dialog-actions>
+  <button mat-button (click)="onNoClick()">Cancelar</button>
+  <button mat-button (click)="register()">Registrar</button>
+</div>

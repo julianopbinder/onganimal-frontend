@@ -1,0 +1,14 @@
+<h1 mat-dialog-title>Reportar animal encontrado</h1>
+<div mat-dialog-content>
+  <p>Que bom que você o encontrou, preencha seus dados abaixo para que o dono possa enntrar em contato com você:</p>
+  <mat-form-field>
+    <input matInput placeholder="Nome" [(ngModel)]="findedAnimal.name">
+  </mat-form-field>
+  <mat-form-field>
+    <input matInput placeholder="Telefone" [(ngModel)]="findedAnimal.phone">
+  </mat-form-field>
+</div>
+<div mat-dialog-actions>
+  <button mat-button (click)="onNoClick()">Cancelar</button>
+  <button mat-button  (click)="report()">Reportar</button>
+</div>

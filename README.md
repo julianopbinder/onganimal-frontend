@@ -1,27 +1,69 @@
-# Onganimal
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.0.3.
+    
 
-## Development server
+    Softwares utilizados para realização do projeto:
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+     IntelliJ IDEA (back-end)
 
-## Code scaffolding
+     Visual Studio Code (front-end)
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+     MySQL Workbench ( ferramenta visual de design de banco de dados )
 
-## Build
+     MariaDB (banco de dados usado localmente)
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
 
-## Running unit tests
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+    Linguagens utilizados para realização do projeto:
+  
+    Angular (FRONT-END)
 
-## Running end-to-end tests
+    Spring Boot e Java (BACK-END)	
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+    
+	 Link da API pública :
+	 
+     https://onganimal-backend.herokuapp.com/swagger-ui.html#/    	 
+	
+	 
+	 	 
+	 
+	 Link da aplicação em Cloud (Heroku)
+	
+	 https://onganimal-frontend.herokuapp.com/ 
+	 
+	 Observação: Pode apresentar instabilidade devido a ser uma conta gratuita (servidores podem ficar hibernados caso ficam muito tempo sem acesso).
+     Caso enfrentem problemas de acesso, favor avisar que faço DEPLOY nos servidores do Heroku.	 
+	
+	
+	
+     Link do versionamento do código (GITHUB)
 
-## Further help
+     https://github.com/julianopbinder/onganimal-frontend  
+	 
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+     https://github.com/julianopbinder/onganimal-backend	 
+	 
+	 	 
+	 Processo para instalação dos fontes e execução LOCALMENTE :
+	 
+	 
+	 FRONT-END
+	 
+	 1)Baixar os fontes do repositório do github.
+	 2)Abrir visual studio code e digitar no terminal: npm install (para baixar as dependências do projeto)
+     3)Executar comando : ng serve
+     4)Acessar browser : http://localhost:4200/
+
+    
+  	 BACK-END
+     1)Baixar os fontes do repositório do github.
+     2)Abrir IntelliJ e executar o Arquivo APP com botão direito do mouse Run 'App'
+     3)Nesse momento starta o back-end
+	 
+	 
+	 BANCO DE DADOS
+	 1)Instalar o MariaDB
+	 2)Instalar e abrir MySQL Workbench ( ferramenta visual de design de banco de dados )
+  	 
+	 
+	 

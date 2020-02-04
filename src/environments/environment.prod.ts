@@ -1,4 +1,4 @@
 export const environment = {
   production: true,
-  apiUrl: 'https://onganimal-service.herokuapp.com'
+  apiUrl: 'https://onganimal-backend.herokuapp.com'
 };

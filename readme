@@ -53,14 +53,14 @@
 	 
 	 1)Baixar os fontes do repositório do github.
 	 2)Abrir visual studio code e digitar no terminal: npm install (para baixar as dependências do projeto)
-     3)Executar comando : ng serve
-     4)Acessar browser : http://localhost:4200/
+   3)Executar comando : ng serve
+   4)Acessar browser : http://localhost:4200/
 
     
-  	 BACK-END
-     1)Baixar os fontes do repositório do github.
-     2)Abrir IntelliJ e executar o Arquivo APP com botão direito do mouse Run 'App'
-     3)Nesse momento starta o back-end
+   BACK-END
+   1)Baixar os fontes do repositório do github.
+   2)Abrir IntelliJ e executar o Arquivo APP com botão direito do mouse Run 'App'
+   3)Nesse momento starta o back-end
 	 
 	 
 	 BANCO DE DADOS

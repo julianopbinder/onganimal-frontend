@@ -1,7 +1,7 @@
 
     
 
-    Softwares utilizados para realização do projeto:
+     Softwares utilizados para realização do projeto:
 
      IntelliJ IDEA (back-end)
 
@@ -20,23 +20,21 @@
     Spring Boot e Java (BACK-END)	
 
     
-	 Link da API pública :
+	  Link da API pública :
 	 
-     https://onganimal-backend.herokuapp.com/swagger-ui.html#/    	 
+    https://onganimal-backend.herokuapp.com/swagger-ui.html#/    	 
 	
+	 	 	 	 
+	  Link da aplicação em Cloud (Heroku)
+	
+	  https://onganimal-frontend.herokuapp.com/ 
 	 
-	 	 
-	 
-	 Link da aplicação em Cloud (Heroku)
-	
-	 https://onganimal-frontend.herokuapp.com/ 
-	 
-	 Observação: Pode apresentar instabilidade devido a ser uma conta gratuita (servidores podem ficar hibernados caso ficam muito tempo sem acesso).
-     Caso enfrentem problemas de acesso, favor avisar que faço DEPLOY nos servidores do Heroku.	 
+	 Observação: Pode apresentar instabilidade devido a ser uma conta gratuita (servidores podem ficar hibernados caso ficam muito tempo   sem acesso).
+   Caso enfrentem problemas de acesso, favor avisar que faço DEPLOY nos servidores do Heroku.	 
 	
 	
 	
-     Link do versionamento do código (GITHUB)
+    Link do versionamento do código (GITHUB)
 
      https://github.com/julianopbinder/onganimal-frontend  
 	 
@@ -44,21 +42,21 @@
      https://github.com/julianopbinder/onganimal-backend	 
 	 
 	 	 
-	 Processo para instalação dos fontes e execução LOCALMENTE :
+	  Processo para instalação dos fontes e execução LOCALMENTE :
 	 
 	 
 	 FRONT-END
 	 
 	 1)Baixar os fontes do repositório do github.
 	 2)Abrir visual studio code e digitar no terminal: npm install (para baixar as dependências do projeto)
-     3)Executar comando : ng serve
-     4)Acessar browser : http://localhost:4200/
+   3)Executar comando : ng serve
+   4)Acessar browser : http://localhost:4200/
 
     
-  	 BACK-END
-     1)Baixar os fontes do repositório do github.
-     2)Abrir IntelliJ e executar o Arquivo APP com botão direito do mouse Run 'App'
-     3)Nesse momento starta o back-end
+   BACK-END
+   1)Baixar os fontes do repositório do github.
+   2)Abrir IntelliJ e executar o Arquivo APP com botão direito do mouse Run 'App'
+   3)Nesse momento starta o back-end
 	 
 	 
 	 BANCO DE DADOS
